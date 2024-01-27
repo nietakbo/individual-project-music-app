@@ -1,0 +1,1 @@
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}html{width:100%}body{margin:0 auto;background:black;color:white;font-family:'Source Sans 3', sans-serif;font-size:14px;line-height:1.7;max-width:1920px}.container{max-width:584px;margin:0 auto}section{display:none}.active{display:block}

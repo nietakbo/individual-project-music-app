@@ -1,0 +1,114 @@
+.song {
+  width: 582px;
+  margin: 0 auto;
+  text-align: center;
+  margin-bottom: 76px;
+
+  &__name {
+    margin: 0;
+    font-size: 30px;
+    letter-spacing: 2.25px;
+    text-align: left;
+    margin-left: 31px;
+  }
+
+  &__player,
+  &__player1,
+  &__player2 {
+    width: 582px;
+    margin-top: 54px;
+    margin-bottom: 26px;
+  }
+
+  &__info {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 30px;
+    font-size: 20px;
+    color: #bfbfbf;
+  }
+}
+
+.splash {
+  max-width: 100%;
+  position: relative;
+  background:url('/images/background.jpg');
+  height: 1200px;
+  background-position: center;
+  background-size: cover;
+  box-shadow: inset 0px -250px 175px black;
+
+  &__inner {
+    margin: 0 482px 0 418px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    top: 58px;
+
+    .splash__title {
+      position: absolute;
+      margin: 494px 484px 667px 516px;
+      text-shadow: 0 0 118px rgba(0, 0, 0, 0.39);
+      font-size: 200px;
+      font-weight: bold;
+      font-style: normal;
+      line-height: 1;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 120px;
+
+      span {
+        letter-spacing: 0;
+      }
+    }
+
+    .splash__subtitle {
+      position: absolute;
+      width: 181px;
+      height: 169px;
+      margin: 698px 902px 430px 937px;
+      font-family: 'Source Sans 3', sans-serif;
+      font-size: 36px;
+      font-weight: 400;
+      text-align: center;
+      text-transform: uppercase;
+      letter-spacing: 11px;
+      word-spacing: 20px;
+    }
+  }
+}
+
+.navigation {
+  margin-top: 30px;
+  background-color: black;
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+
+    a {
+      font-weight: bold;
+      color: #bfbfbf;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-size: 30px;
+    }
+
+    .clicked {
+      color: white;
+    }
+  }
+}
+
+footer {
+  p {
+    margin: 28px 0;
+    font-size: 20px;
+    text-align: center;
+    color: #bfbfbf;
+  }
+}

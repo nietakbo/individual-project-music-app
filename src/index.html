@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Stream</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@300;400;600;700;900&display=swap"rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./vendor/green-audio-player.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+  <header>
+    <div class="splash">
+      <div class="splash__inner">
+        <h1 class="splash__title">tast<span>e</span></h1>
+        <h3 class="splash__subtitle">engage in art</h3>
+      </div>
+    </div>
+
+  </header>
+  <nav class="navigation">
+    <div class="container">
+      <a id="homeLink" href="#home">home</a>
+      <a id="searchLink" href="#search">search</a>
+      <a id="discoverLink" href="#discover">discover</a>
+    </div>
+  </nav>
+
+  <div id="pages">
+
+    <section id="home" class="home">
+      <div class="home__categories"><span>Categories:</span>
+        <div id="categories"></div>
+      </div>
+      <div class="container home__wrapper">
+
+
+        <div class="home__songs wrapper" id="songs"></div>
+      </div>
+
+      <div class="subscribe">
+        <h2 class="subscribe__title">Subscribe <span>now</span></h2>
+        <a href="#join-now" class="subscribe__joinBtn">
+          <p>Join now</p>
+        </a>
+        <div class="subscribe__album">
+          <img class="subscribe__album-img" src="images/artist.jpg" alt="woman in black hat">
+          <div class="subscribe__album-info">
+            <h3>new album</h3>
+            <p>Available only for subscribers</p>
+          </div>
+          <div class="subscribe__album-author">
+            <h3>Dean</h3>
+            <h3 class="subscribe__album-author--moved">Hen<span>son</span></h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="search" class="search">
+      <div class="search__wrapper">
+        <h2 class="search__title">search</h2>
+        <form>
+          <label for="search-input">Name</label>
+          <input id="search-input" class="search__input" type="text" name="name">
+          <label for="search-select">Category</label>
+          <select id="search-select" class="search__select">
+          </select>
+          <button id="searchBtn" class="search__btn" type="submit">Search</button>
+        </form>
+
+        <p class="search__message" id="searchMsg"></p>
+        <div class="search__results wrapper" id="searchResults"></div>
+      </div>
+    </section>
+
+    <section id="discover" class="discover">
+      <div class="discover__wrapper">
+        <h2 class="discover__title">discover</h2>
+        <div class="discover__result wrapper" id="discoverResult"></div>
+      </div>
+    </section>
+  </div>
+
+  <footer>
+    <p>All rights reserved</p>
+  </footer>
+
+  <script id="template-song" type="text/x-handlebars-template">
+  <div class="song">
+      <h2 class="song__name" id="name">{{name filename}} - {{ title }}</h2>
+      <div class="song__player">
+        <audio crossorigin>
+          <source id="src" src="./songs/{{ filename}}" type="audio/mpeg">
+        </audio>
+      </div>
+      <div class="song__info">
+        <p class="song__categories" id="categories">Categories: {{toString categories}}</p>
+        <p class="song__rank" id="rank">#{{ ranking }} in the ranking</p>
+      </div>
+    </div>
+  </script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.1.0/handlebars.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/gh/greghub/green-audio-player/dist/js/green-audio-player.min.js"></script>
+  <script src="js/app.js" type="module"></script>
+</body>
+</html>

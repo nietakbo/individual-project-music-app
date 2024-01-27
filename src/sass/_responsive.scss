@@ -1,0 +1,720 @@
+@media only screen and (max-width: 1700px) {
+  .splash {
+    height: 1200px;
+    background-position: -40px 0;
+
+    &__inner {
+      margin: 0;
+
+      .splash__title {
+        margin: 0 auto;
+        margin-top: -180px;
+        font-size: 200px;
+        letter-spacing: 90px;
+      }
+
+      .splash__subtitle {
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 250px;
+        font-size: 42px;
+        word-spacing: 100px;
+      }
+    }
+  }
+  
+  .subscribe {
+    &__joinBtn {
+      top: 250px;
+    }
+
+    &-author {
+      h3 {
+        text-shadow: 1px 1px 10px black;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1400px) {
+  .splash {
+    height: 1200px;
+    background-position: -180px 0;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .splash {
+    height: 1000px;
+    background-position: -140px 0;
+
+    .splash__title {
+      letter-spacing: 60px;
+    }
+  }
+}
+@media only screen and (max-width: 1024px) {
+  //================// ALWAYS ON //================//
+  .splash {
+    height: 1200px;
+    background-position: -370px 0;
+
+    &__inner {
+      margin: 0;
+
+      .splash__title {
+        margin: 0 auto;
+        margin-top: -200px;
+        font-size: 200px;
+        letter-spacing: 60px;
+      }
+
+      .splash__subtitle {
+        width: 250px;
+        margin: 0 auto;
+        margin-top: 250px;
+        font-size: 42px;
+        word-spacing: 100px;
+      }
+    }
+  }
+  
+  .navigation {
+    .container {
+      max-width: 80%;
+      justify-content: space-between;
+
+      a {
+        font-size: 45px;
+        padding: 10px 40px;
+      }
+    }
+  }
+  
+  //================// GLOBAL //================//
+  
+  .container {
+    max-width: 80%;
+
+    .song:last-of-type {
+      margin-bottom: 150px;
+    }
+
+    .song {
+      width: 100%;
+  
+      &__name {
+        font-size: 36px;
+        letter-spacing: 4px;
+        word-spacing: 2px;
+      }
+  
+      &__player {
+        width: 100%;
+        margin-top: 30px;
+      }
+  
+      &__info {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 26px;
+        color: #bfbfbf;
+      }
+    }
+  }
+  
+  .subscribe {
+    background-position: -500px -150px;
+    height: 800px;
+    margin-top: 50px;
+  
+    &__title {
+      font-size: 100px;
+      letter-spacing: 5px;
+
+      span {
+        letter-spacing: 9px;
+      }
+    }
+
+    &__joinBtn {
+      position: absolute;
+      width: 30%;
+      height: 60px;
+      top: 700px;
+      right: 35%;
+  
+      p {
+        font-size: 30px;
+        margin: 17px 0;
+        letter-spacing: 5px;
+      }
+    }
+  
+    &__album {
+      right: 0;
+      top: 80px;
+      width: 100%;
+      height: 600px;
+
+      &-img {
+        right: 20%;
+        width: 60%;
+        height: 500px;
+        object-fit: cover;
+      }
+
+      &-info {
+        width: 100%;
+        right: 0;
+        bottom: 5px;
+        line-height: 1;
+        text-align: center;
+        text-shadow: 1px 1px 10px black;
+  
+        h3 {
+          font-size: 36px;
+          font-weight: 700;
+          text-transform: uppercase;
+          color: #bfbfbf;
+          letter-spacing: 2px;
+          margin-bottom: 10px;
+        }
+
+        p {
+          font-weight: 600;
+          font-size: 30px;
+          letter-spacing: 2px;
+          padding: 0 20px;
+        }
+      }
+  
+      &-author {
+        width: 100%;
+        top: 0;
+        left: 0;
+
+        h3 {
+          width: 100%;
+          text-align: center;
+          font-size: 120px;
+          font-weight: 700;
+          font-style: normal;
+          letter-spacing: 20px;
+          line-height: 1;
+        }
+      }
+
+      .subscribe__album-author--moved {
+        position: absolute;
+        font-size: 100px;
+        margin-top: 270px;
+        margin-left: 0;
+        letter-spacing: 10px;
+        color: #cf383e;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  //================// ALWAYS ON //================//
+  .splash {
+    max-width: 100%;
+    height: 852px;
+    background-position: -240px 0;
+    object-fit: cover;
+
+    .splash__title {
+      margin-top: -110px;
+      font-size: 150px;
+      letter-spacing: 40px;
+    }
+
+    .splash__subtitle {
+      width: 181px;
+      height: 169px;
+      font-size: 32px;
+      word-spacing: 55px;
+    }
+  }
+  
+  .navigation {
+    .container {
+      max-width: 584px;
+
+      a {
+        font-size: 30px;
+        padding: 5px 30px;
+      }
+    }
+  }
+  
+  //================// GLOBAL //================//
+  
+  .container {
+    max-width: 584px;
+
+    .song:last-of-type {
+      margin-bottom: 100px;
+    }
+
+    .song {
+      &__name {
+        font-size: 28px;
+        letter-spacing: 3px;
+      }
+  
+      &__info {
+        font-size: 20px;
+      }
+    }
+  }
+  
+  .subscribe {
+    background-position: -500px -150px;
+    height: 800px;
+    margin-top: 50px;
+  
+    &__title {
+      font-size: 70px;
+
+      span {
+        letter-spacing: 7px;
+      }
+    }
+
+    &__joinBtn {
+      width: 40%;
+      right: 30%;
+    }
+  
+    &__album {
+      &-img {
+        right: 15%;
+        width: 70%;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 480px) {
+  //================// ALWAYS ON //================//
+  .splash {
+    background-position: -310px 0;
+    height: 700px;
+  
+    .splash__title {
+      margin-top: -140px;
+      font-size: 100px;
+      letter-spacing: 25px;
+    }
+
+    .splash__subtitle {
+      font-size: 24px;
+    }
+  }
+
+  .navigation {
+    .container {
+      a {
+        font-size: 26px;
+        padding: 5px 10px;
+      }
+    }
+  }
+  //================// GLOBAL //================//
+  .container {
+    max-width: 584px;
+
+    .song {
+      width: 90vw;
+  
+      &__name {
+        font-size: 22px;
+        letter-spacing: 1px;
+        word-spacing: 0;
+      }
+  
+      &__info {
+        margin-left: 10px;
+        margin-right: 10px;
+        font-size: 16px;
+      }
+    }
+  }
+  
+  .subscribe {
+    background-position: -600px -150px;
+    height: 600px;
+  
+    &__title {
+      font-size: 42px;
+      letter-spacing: 3px;
+
+      span {
+        letter-spacing: 5px;
+      }
+    }
+
+    &__joinBtn {
+      width: 60%;
+      height: 60px;
+      top: 500px;
+      right: 20%;
+    }
+  
+    &__album {
+      top: 50px;
+      height: 500px;
+
+      &-img {
+        right: 10%;
+        width: 80%;
+        height: 300px;
+      }
+
+      &-info {
+        bottom: 70px;
+  
+        h3 {
+          font-size: 30px;
+        }
+
+        p {
+          font-size: 26px;
+        }
+      }
+  
+      &-author {
+        h3 {
+          font-size: 100px;
+        }
+      }
+
+      .subscribe__album-author--moved {
+        font-size: 66px;
+        margin-top: 130px;
+      }
+    }
+  }
+  
+  //================// SEARCH PAGE //================//
+  .search__wrapper {
+    margin: 0 auto;
+    width: 360px;
+
+    .search__title {
+      font-size: 45px;
+    }
+
+    form {
+      flex-direction: column;
+      align-items: center;
+      width: 100%;
+
+      label {
+        text-transform: uppercase;
+      }
+
+      .search__input,
+      .search__select {
+        margin: 15px 0;
+        height: 40px;
+        font-size: 20px;
+      }
+    }
+
+    .search__results {
+      .song {
+        width: 360px;
+
+        &__player {
+          width: 100%;
+        }
+
+        &__name {
+          font-size: 22px;
+          letter-spacing: 1px;
+          word-spacing: 0;
+        }
+  
+        &__info {
+          margin-left: 10px;
+          margin-right: 10px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  
+  //================// DISCOVER PAGE //================//
+  .discover__wrapper {
+    width: 360px;
+  
+    .discover__title {
+      font-size: 45px;
+    }
+
+    .discover__message {
+      font-size: 24px;
+    }
+  
+    .discover__result {
+      .song {
+        width: 100%;
+  
+        &__player {
+          width: 100%;
+        }
+
+        &__name {
+          font-size: 22px;
+          letter-spacing: 1px;
+          word-spacing: 0;
+        }
+  
+        &__info {
+          margin-left: 10px;
+          margin-right: 10px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+@media only screen and (max-width: 360px) {
+  //================// ALWAYS ON //================//
+  
+  .splash {
+    background-position: -320px 0;
+    height: 650px;
+  
+    .splash__title {
+      margin-top: -100px;
+      font-size: 80px;
+      letter-spacing: 20px;
+    }
+
+    .splash__subtitle {
+      margin-top: 200px;
+      font-size: 20px;
+      word-spacing: 65px;
+    }
+  }
+  
+  .navigation {
+    .container {
+      a {
+        font-size: 18px;
+        padding: 10px 15px;
+      }
+    }
+  }
+  
+  //================// PLAYER //================//
+  
+  .green-audio-player {
+    min-width: 250px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  //================// GLOBAL //================//
+  .home__songs {
+    margin-top: 60px;
+
+    .song:last-of-type {
+      margin-bottom: 76px;
+    }
+
+    .song {
+      margin-bottom: 50px;
+  
+      &__name {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 20px;
+      }
+  
+      &__player {
+        margin-top: 30px;
+      }
+  
+      &__info {
+        font-size: 14px;
+  
+        .song__categories {
+          text-align: left;
+          margin-right: 10px;
+        }
+  
+        .song__rank {
+          text-align: right;
+        }
+      }
+    }
+  }
+  
+  .subscribe {
+    &__title {
+      font-size: 32px;
+    }
+  
+    &__album {
+      width: 100%;
+      height: 400px;
+
+      &-img {
+        height: 70%;
+      }
+
+      &-info {
+        width: 80%;
+        margin-right: 10%;
+        bottom: 0;
+  
+        h3 {
+          font-size: 20px;
+          color: white;
+        }
+
+        p {
+          font-size: 20px;
+        }
+      }
+  
+      &-author {
+        h3 {
+          margin-top: 10px;
+          font-size: 48px;
+        }
+      }
+
+      .subscribe__album-author--moved {
+        text-shadow: 1px 1px 10px black;
+        text-align: center;
+        text-transform: uppercase;
+        font-weight: 900;
+        margin-top: 170px;
+        font-size: 42px;
+        left: 0;
+        width: 100%;
+      }
+    }
+
+    &__joinBtn {
+      width: 50%;
+      top: 480px;
+      right: 25%;
+  
+      p {
+        font-size: 26px;
+        letter-spacing: 3px;
+      }
+    }
+  }
+  //================// SEARCH PAGE //================//
+  .search__wrapper {
+    margin: 0 auto;
+    width: 320px;
+
+    .search__title {
+      font-size: 35px;
+    }
+
+    form {
+      width: 80%;
+      margin: 0 auto;
+
+      label {
+        text-transform: uppercase;
+      }
+
+      .search__input,
+      .search__select {
+        width: 100%;
+        margin: 15px 0;
+        height: 40px;
+        font-size: 20px;
+      }
+
+      .search__btn {
+        height: 48px;
+        width: 140px;
+        font-size: 16px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+      }
+    }
+
+    .search__message {
+      font-size: 20px;
+    }
+
+    .search__results {
+      .song {
+        width: 300px;
+
+        &__player {
+          width: 300px;
+          margin-top: 25px;
+        }
+
+        &__name {
+          font-size: 22px;
+          letter-spacing: 1px;
+          word-spacing: 0;
+          margin-left: 10px;
+        }
+  
+        &__info {
+          margin-left: 10px;
+          margin-right: 10px;
+          font-size: 16px;
+        }
+
+        .song__categories {
+          text-align: left;
+        }
+
+        .song__rank {
+          text-align: right;
+        }
+      }
+    }
+  }
+  //================// DISCOVER PAGE //================//
+  
+  .discover__wrapper {
+    width: 300px;
+  
+    .discover__title {
+      font-size: 30px;
+    }
+
+    .discover__message {
+      font-size: 20px;
+    }
+  
+    .discover__result {
+      .song {
+        width: 100%;
+  
+        &__player {
+          width: 100%;
+          margin-top: 25px;
+        }
+
+        &__name {
+          font-size: 22px;
+          letter-spacing: 1px;
+          word-spacing: 0;
+          margin-left: 10px;
+        }
+  
+        &__info {
+          margin-left: 10px;
+          margin-right: 10px;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}

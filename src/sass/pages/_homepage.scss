@@ -1,0 +1,143 @@
+.home__songs {
+  margin-top: 113px;
+}
+
+.home__categories {
+  text-align: center;
+  padding-top: 50px;
+  font-size: 20px;
+  
+  span {
+    font-weight: bold;
+    font-size: 30px;
+  }
+  
+  #categories {
+    display: inline-block;
+    font-size: 25px;
+  
+    a {
+      display: inline-block;
+      cursor: pointer;
+      padding: 0 15px;
+      margin-bottom: 10px;
+  
+      &:not(:last-child) {
+        border-right: 2px solid white;
+      }
+
+      &.active {
+        color: #cf383e;
+        font-weight: bold;
+      }
+    }
+  }
+}
+  
+.subscribe {
+  position: relative;
+  background-image: url('/images/subscribe.jpg');
+  background-position: center;
+  height: 1020px;
+  margin-top: 100px;
+  
+  &__title {
+    position: absolute;
+    width: 100%;
+    transform: translateY(-50%);
+    font-size: 100px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 27px;
+    letter-spacing: 20px;
+
+    span {
+      font-weight: 900;
+      font-style: normal;
+      letter-spacing: 20px;
+      line-height: normal;
+    }
+  }
+
+  &__joinBtn {
+    position: absolute;
+    width: 313px;
+    height: 133px;
+    background-color: #cf383e;
+    top: 522px;
+    right: 63.9%;
+    text-decoration: none;
+    border-radius: 4px;
+  
+    p {
+      text-align: center;
+      font-size: 40px;
+      margin: 53px 0;
+      font-weight: 700;
+      line-height: 27px;
+      letter-spacing: 8px;
+      color: white;
+    }
+  }
+  
+  &__album {
+    position: absolute;
+    right: 17.75%;
+    top: 169px;
+    width: 763px;
+    height: 717px;
+
+    &-img {
+      position: absolute;
+      width: 465px;
+      height: 578px;
+      right: 0;
+    }
+
+    &-info {
+      position: absolute;
+      width: 735px;
+      bottom: 0;
+      right: -28px;
+      text-align: right;
+  
+      h3 {
+        font-size: 40px;
+        font-weight: 700;
+        text-transform: uppercase;
+        color: #bfbfbf;
+        letter-spacing: 8px;
+      }
+
+      p {
+        font-weight: 600;
+        font-size: 39px;
+        letter-spacing: 8px;
+      }
+    }
+  
+    &-author {
+      position: absolute;
+      width: 506px;
+  
+      top: 294px;
+
+      h3 {
+        font-size: 100px;
+        font-weight: 700;
+        font-style: normal;
+        letter-spacing: 20px;
+        line-height: 1;
+      }
+    }
+
+    .subscribe__album-author--moved {
+      margin-left: 75px;
+
+      span {
+        color: #cf383e;
+      }
+    }
+  }
+}
